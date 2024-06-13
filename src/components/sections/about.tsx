@@ -11,15 +11,15 @@ export default function About() {
     <motion.section
       ref={ref}
       id='about'
-      className='max-w-[48rem] text-center leading-8 scroll-mt-28 sm:scroll-mt-36'
+      className='max-w-[50rem] text-center leading-8 scroll-mt-28 sm:scroll-mt-36'
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 0.175, duration: 0.5, type: 'spring', stiffness: 360, damping: 50 }}>
       <SectionHeading>About me</SectionHeading>
       <p className='mb-5'>
-        I am a student at <span className='font-semibold'>Hanoi University of Science and Technology</span>, majoring in mechatronics engineering. During my time at the university, I tried my hand at programming and found my passion in it.
-        I'm an <span className='font-semibold'>algorithm enthusiast</span>, I love the feeling of finally figuring out a solution to a problem. I have solved over 300 problems in <span className='font-semibold'>Leetcode</span> and I'm
-        continuing to enjoy my <span className='font-semibold'>Leetcode</span> journey every day 😎 (my Leetcode profile:{' '}
+        I'm a student at <span className='font-semibold'>Hanoi University of Science and Technology</span>, majoring in mechatronics engineering. During my time at the university, I tried my hand at programming and found my passion for it.
+        I'm a <span className='font-semibold'>Leetcode geek</span> who has solved more than 300 problems in <span className='font-semibold'>Leetcode</span>, I'm pretty confident in my{' '}
+        <span className='font-semibold'>algorithmic abilities</span> and <span className='font-semibold'>problem-solving skills</span> (my Leetcode profile:{' '}
         <a
           className='text-sky-500 hover:underline'
           href='https://leetcode.com/u/TienAnh013/'
