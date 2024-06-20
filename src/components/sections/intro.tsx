@@ -4,7 +4,7 @@ import { useSectionInView } from '@/lib/hooks';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaLinkedin, FaSquareGithub } from 'react-icons/fa6';
+import { SiGithub, SiLeetcode } from 'react-icons/si';
 import { HiDownload, HiArrowNarrowRight } from 'react-icons/hi';
 
 export default function Intro() {
@@ -47,7 +47,7 @@ export default function Intro() {
         className='mb-10 mt-4 px-4 text-xl font-medium leading-[1.5]'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
-        <span className='font-semibold'>Hello, I'm Tien Anh Tran.</span> I'm an <span className='font-semibold'>algorithm enthusiast</span> with a strong base on <span className='font-semibold'>Data structures & Algorithms</span>. I enjoy
+        <span className='font-semibold'>Hello, I'm Tien Anh Tran.</span> I'm a <span className='font-semibold'>graduating student</span> with a strong base in <span className='font-semibold'>Data structures & Algorithms</span>. I enjoy
         solving problems and exploring new technologies. My core skills are focused on <span className='font-semibold'>React(Next.js)</span> and <span className='font-semibold'>Node.js</span>.
       </motion.h1>
       <motion.div
@@ -65,23 +65,25 @@ export default function Intro() {
           Contact me here <HiArrowNarrowRight className='w-5 h-5' />
         </Link>
         <a
-          className=' bg-white/75 dark:bg-sky-200/10 dark:hover:bg-bg-sky-200/20 shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit cursor-pointer hover:scale-110 duration-200'
+          className=' bg-white/75 dark:bg-sky-200/10 dark:hover:text-white shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit cursor-pointer hover:scale-110 duration-200'
           href='/CV.pdf'
           download={true}>
           Download CV <HiDownload className='w-5 h-5' />
         </a>
         <div className='flex flex-row gap-2'>
           <a
+            title='Github'
             className='group bg-white/75 dark:bg-sky-200/10 dark:hover:bg-bg-sky-200/20 shadow-lg shadow-black/[0.05] p-4 rounded-full cursor-pointer hover:scale-[1.15] duration-200'
             href='https://github.com/AnhBigBrother'
             target='_blank'>
-            <FaSquareGithub className='w-5 h-5 opacity-70 group-hover:opacity-100' />
+            <SiGithub className='w-5 h-5 opacity-70 group-hover:opacity-100' />
           </a>
           <a
+            title='Leetcode'
             className='group bg-white/75 dark:bg-sky-200/10 dark:hover:bg-bg-sky-200/20 shadow-lg shadow-black/[0.05] p-4 rounded-full cursor-pointer hover:scale-[1.15] duration-200'
-            href='https://www.linkedin.com/in/tien-anh-tran-759465271/'
+            href='https://leetcode.com/u/TienAnh013/'
             target='_blank'>
-            <FaLinkedin className='w-5 h-5 opacity-70 group-hover:opacity-100' />
+            <SiLeetcode className='w-5 h-5 opacity-70 group-hover:opacity-100' />
           </a>
         </div>
       </motion.div>
