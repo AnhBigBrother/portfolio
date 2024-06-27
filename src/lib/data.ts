@@ -34,7 +34,7 @@ export const experienceData = [
   {
     title: 'Start university',
     location: 'Hanoi, VN',
-    description: 'I started studying Mechatronics engineering at Hanoi University of Science and Technology in September 2018.',
+    description: 'I started my Mechatronics Engineering major at Hanoi University of Science and Technology in September 2018.',
     icon: React.createElement(PiGraduationCap),
     date: '2018',
   },
@@ -42,14 +42,14 @@ export const experienceData = [
     title: 'Start learning programming',
     location: 'Hanoi, VN',
     description:
-      'I started learning to code in late 2022. After mastering the basic such as C++ programming, data structures & algorithms, OOP, I decided to be a full-stack developer. I started learning HTML, CSS, JavaScript, React, Node.js, MongoDB, etc at the end of 2023.',
+      'I started learning to code in late 2022. After mastering the basics such as C++ programming, Data structures & Algorithms, Object-Oriented Programming, I decided to be a full-stack developer. I started learning about web development at the end of 2023.',
     icon: React.createElement(FaReact),
     date: '2022',
   },
   {
     title: 'Graduate university',
     location: 'Hanoi, VN',
-    description: "I'm about to graduate in July 2024",
+    description: "I'm about to graduate from university in July 2024",
     icon: React.createElement(LiaGraduationCapSolid),
     date: 'Jul, 2024',
   },
