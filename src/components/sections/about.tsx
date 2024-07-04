@@ -23,7 +23,7 @@ export default function About() {
       </p>
 
       <p>
-        My core stack is <span className='font-semibold'>JavaScript, TypeScript, React, Node.js, and Next.js</span> and I'm also familiar with <span className='font-semibold'>C++, Java</span> and{' '}
+        My core stack is <span className='font-semibold'>JavaScript, TypeScript, React, Node.js, and Next.js</span> and I'm also familiar with <span className='font-semibold'>Java</span> and{' '}
         <span className='font-semibold'>object-oriented programming</span>. All the knowledge I have comes from <span className='font-semibold'>self-study</span>. I'm always looking to learn new technologies. Currently, I am looking for a{' '}
         <span className='font-semibold'>full-time position</span> as a <span className='font-semibold'>software developer</span>. Working in a <span className='font-semibold'>dynamic</span> and{' '}
         <span className='font-semibold'>challenging</span> environment is my desire.

@@ -57,23 +57,33 @@ export const experienceData = [
 
 export const projectsData = [
   {
+    title: 'Messenger clone',
+    description: 'A real-time chat app where you can log in with your Google or Github account and start chatting with your friends. You can send messages or pictures and also create group chats.',
+    tags: ['React', 'Next.JS', 'Next-Auth.JS', 'TypeScript', 'MongoDB', 'Pusher'],
+    imageUrl: '/messenger.png',
+    link: 'https://bigbruhh-messenger.vercel.app',
+  },
+  {
     title: 'Shop punk',
     description: 'An e-commerce store for technology goods. It has features like filtering, rating, and purchasing products, and also has an admin role to manage products, orders, and sales statistics.',
     tags: ['React', 'Redux', 'Tailwind', 'Node.JS', 'MongoDB', 'Firebase'],
     imageUrl: '/shop_punk.png',
+    link: 'https://bruhh-e-commece.onrender.com',
   },
   {
     title: 'Cineverse',
-    description: 'A web application about the information on movies, TV shows with the API from themoviedb.  It has features like filtering, sorting, rating movies and TVshow.',
-    tags: ['React', 'Redux', 'Tailwind', 'themovieDB API'],
+    description: 'A web application that provides information about movies, TV shows, and celebrities. It has features like filtering, sorting, and rating movies and TV shows.',
+    tags: ['JavaScript', 'React', 'Redux', 'Tailwind', 'themovieDB API'],
     imageUrl: '/cineverse.png',
+    link: 'https://cineverse-bigbro.vercel.app',
   },
   {
     title: 'Weather app',
-    description: 'A public web application to get weather and weather forecast of any city in the world by name.',
-    tags: ['HTML', 'CSS', 'React', 'Redux', 'openweatherAPI', 'rapidAPI'],
+    description: 'A public web application to get weather and weather forecasts of any city in the world by name.',
+    tags: ['JavaScript', 'React', 'Redux', 'openweatherAPI', 'rapidAPI'],
     imageUrl: '/weather-app.png',
+    link: 'https://anhbigbrother.github.io/weather-app',
   },
 ] as const;
 
-export const skillsData = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Redux', 'Node.js', 'Express.js', 'TailwindCSS', 'MongoDB', 'Mongoose', 'Next.js', 'Git', 'Github', 'Docker'] as const;
+export const skillsData = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Redux', 'Node.js', 'Express.js', 'TailwindCSS', 'MongoDB', 'Mongoose', 'Next.js', 'Next-Auth.js', 'Git', 'Github', 'English'] as const;

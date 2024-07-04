@@ -66,8 +66,7 @@ export default function Intro() {
         </Link>
         <a
           className=' bg-white/75 dark:bg-sky-200/10 dark:hover:text-white shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit cursor-pointer hover:scale-110 duration-200'
-          href='/CV.pdf'
-          download={true}>
+          href='/TIEN ANH TRAN - Resume.pdf'>
           Download CV <HiDownload className='w-5 h-5' />
         </a>
         <div className='flex flex-row gap-2'>
