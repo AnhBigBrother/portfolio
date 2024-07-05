@@ -19,7 +19,7 @@ export default function About() {
       <p className='mb-5'>
         I'm a student at <span className='font-semibold'>Hanoi University of Science and Technology</span>, majoring in mechatronics engineering. During my time at the university, I tried my hand at programming and found my passion for it.
         I'm an <span className='font-semibold'>algorithm enthusiast</span> who has solved more than 300 problems in <span className='font-semibold'>Leetcode</span>, I'm pretty confident in my{' '}
-        <span className='font-semibold'>algorithmic-thinking ability</span> and my <span className='font-semibold'>problem-solving skills</span>.
+        <span className='font-semibold'>algorithmic-thinking ability</span> and my <span className='font-semibold'>problem-solving skill</span>.
       </p>
 
       <p>
