@@ -86,4 +86,4 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Redux', 'Node.js', 'Express.js', 'TailwindCSS', 'MongoDB', 'Mongoose', 'Next.js', 'Next-Auth.js', 'Git', 'Github', 'English'] as const;
+export const skillsData = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Redux', 'Node.js', 'Express.js', 'TailwindCSS', 'MongoDB', 'Mongoose', 'Next.js', 'Next-Auth.js', 'Git', 'Docker', 'English'] as const;
