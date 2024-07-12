@@ -77,13 +77,6 @@ export const projectsData = [
     imageUrl: '/cineverse.png',
     link: 'https://cineverse-bigbro.vercel.app',
   },
-  {
-    title: 'Weather app',
-    description: 'A public web application to get weather and weather forecasts of any city in the world by name.',
-    tags: ['JavaScript', 'React', 'Redux', 'openweatherAPI', 'rapidAPI'],
-    imageUrl: '/weather-app.png',
-    link: 'https://anhbigbrother.github.io/weather-app',
-  },
 ] as const;
 
 export const skillsData = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Redux', 'Node.js', 'Express.js', 'TailwindCSS', 'MongoDB', 'Mongoose', 'Next.js', 'Next-Auth.js', 'Git', 'Docker', 'English'] as const;
