@@ -36,18 +36,9 @@ export const experienceData = [
 		location: "Hanoi, VN",
 		description:
 			"Started studying at Hanoi University of Science and Technology (Mechatronic Engineering).",
-		// "I started my Mechatronics Engineering major at Hanoi University of Science and Technology in September 2018."
 		icon: React.createElement(PiGraduationCap),
 		date: "Seb, 2018",
 	},
-	// {
-	// 	title: "Start learning programming",
-	// 	location: "Hanoi, VN",
-	// 	description:
-	// 		"I started learning to code in late 2022. After mastering the basics such as C++ programming, Data structures & Algorithms, Object-Oriented Programming, I decided to be a full-stack developer. I started learning about web development at the end of 2023.",
-	// 	icon: React.createElement(FaReact),
-	// 	date: "2022",
-	// },
 	{
 		title: "Graduate university",
 		location: "Hanoi, VN",
@@ -92,38 +83,17 @@ export const skillsData = [
 	"TypeScript",
 	"React",
 	"Redux",
-	"Node.js",
-	"Express.js",
 	"TailwindCSS",
+	"Node.JS",
+	"Express.JS",
+	"Nest.JS",
+	"Sails.JS",
+	"Next.JS",
 	"MongoDB",
-	"Mongoose",
-	"Next.js",
-	"Next-Auth.js",
+	"PostgreSQL",
+	"Prisma",
+	"Redis",
 	"Git",
 	"Docker",
 	"English",
 ] as const;
-
-/* 
-[
-	"HTML",
-	"CSS",
-	"JavaScript",
-	"TypeScript",
-	"React",
-	"Redux",
-	"Node.js",
-	"Express.js",
-	"TailwindCSS",
-	"Next.js",
-	"Nest.js",
-	"MongoDB",
-	"Prisma",
-	"PosgreSql",
-	"Redis",
-	"Linux",
-	"Git",
-	"Docker",
-	"English",
-]
-  */
