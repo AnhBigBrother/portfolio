@@ -27,7 +27,7 @@ export default function RootLayout({
 				className={`${inter.className} relative pt-28 sm:pt-40 text-gray-950 dark:text-white/85`}>
 				<div className='fixed top-0 left-0 w-screen h-screen -z-10'>
 					<div className='absolute top-0 left-0 w-screen h-screen bg-sky-100/80 dark:bg-slate-950/80 z-10'></div>
-					<div className="bg-[url('/day.jpg')] dark:bg-[url('/night.jpg')] w-screen h-screen bg-cover bg-right"></div>
+					<div className="bg-[url('/day.jpg')] dark:bg-[url('/night.jpg')] w-screen h-screen bg-cover bg-center"></div>
 				</div>
 				<ActiveSectionContextProvider>
 					<Header />
