@@ -44,7 +44,7 @@ export default function Intro() {
 				</div>
 			</div>
 			<motion.h1
-				className='mb-10 mt-4 px-4 text-xl font-medium leading-[1.5]'
+				className='mb-10 mt-4 px-3 text-xl font-medium leading-[1.5]'
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
 				<span className='font-semibold'>Hello, I'm Tien Anh Tran.</span> I'm a{" "}
