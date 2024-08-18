@@ -43,14 +43,14 @@ export default function Contact() {
 					name='senderEmail'
 					required
 					maxLength={100}
-					className='h-14 rounded-lg px-4 w-full bg-white/60 dark:bg-slate-700/25 outline-none dark:placeholder:text-neutral-100/70'
+					className='h-14 rounded-lg px-4 w-full bg-white/60 dark:bg-slate-700/25 backdrop-blur-[3px] outline-none dark:placeholder:text-neutral-100/70'
 					placeholder='Your email'
 				/>
 				<textarea
 					name='message'
 					required
 					maxLength={5000}
-					className='w-full h-52 my-3 rounded-lg p-4 resize-none bg-white/60 dark:bg-slate-700/25 outline-none dark:placeholder:text-neutral-100/70'
+					className='w-full h-52 my-3 rounded-lg p-4 resize-none bg-white/60 dark:bg-slate-700/25 backdrop-blur-[3px] outline-none dark:placeholder:text-neutral-100/70'
 					placeholder='Your message'
 				/>
 				<SubmitButton />

@@ -68,21 +68,21 @@ export default function Intro() {
 					Contact me here <HiArrowNarrowRight className='w-5 h-5' />
 				</Link>
 				<a
-					className=' bg-white/60 dark:bg-slate-700/25 dark:hover:bg-sky-200/20 dark:hover:text-white shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit cursor-pointer hover:scale-110 duration-200'
+					className=' bg-white/60 dark:bg-slate-700/25 backdrop-blur-[3px] dark:hover:bg-sky-200/20 dark:hover:text-white shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit cursor-pointer hover:scale-110 duration-200'
 					href='/TIEN ANH TRAN - Resume.pdf'>
 					Download CV <HiDownload className='w-5 h-5' />
 				</a>
 				<div className='flex flex-row gap-2'>
 					<a
 						title='Github'
-						className='group bg-white/60 dark:bg-slate-700/25 dark:hover:bg-sky-200/20 dark:hover:bg-bg-sky-200/20 shadow-lg shadow-black/[0.05] p-4 rounded-full cursor-pointer hover:scale-[1.15] duration-200'
+						className='group bg-white/60 dark:bg-slate-700/25 backdrop-blur-[3px] dark:hover:bg-sky-200/20 dark:hover:bg-bg-sky-200/20 shadow-lg shadow-black/[0.05] p-4 rounded-full cursor-pointer hover:scale-[1.15] duration-200'
 						href='https://github.com/AnhBigBrother'
 						target='_blank'>
 						<SiGithub className='w-5 h-5 opacity-70 group-hover:opacity-100' />
 					</a>
 					<a
 						title='Leetcode'
-						className='group bg-white/60 dark:bg-slate-700/25 dark:hover:bg-sky-200/20 dark:hover:bg-bg-sky-200/20 shadow-lg shadow-black/[0.05] p-4 rounded-full cursor-pointer hover:scale-[1.15] duration-200'
+						className='group bg-white/60 dark:bg-slate-700/25 backdrop-blur-[3px] dark:hover:bg-sky-200/20 dark:hover:bg-bg-sky-200/20 shadow-lg shadow-black/[0.05] p-4 rounded-full cursor-pointer hover:scale-[1.15] duration-200'
 						href='https://leetcode.com/u/TienAnh013/'
 						target='_blank'>
 						<SiLeetcode className='w-5 h-5 opacity-70 group-hover:opacity-100' />
