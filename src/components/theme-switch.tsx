@@ -2,11 +2,13 @@
 import React, { useEffect, useState } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 
+type Theme = "light" | "dark";
+
 export default function ThemeSwitch() {
-	const [theme, setTheme] = useState<"light" | "dark">("light");
+	const [theme, setTheme] = useState<Theme>("light");
 
 	useEffect(() => {
-		const localTheme = window.localStorage.getItem("theme") as "light" | "dark" | null;
+		const localTheme = window.localStorage.getItem("theme") as Theme;
 		if (localTheme) {
 			setTheme(localTheme);
 			if (localTheme === "dark") {
