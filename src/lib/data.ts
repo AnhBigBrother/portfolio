@@ -6,27 +6,27 @@ import { LiaGraduationCapSolid } from "react-icons/lia";
 export const links = [
 	{
 		name: "Home",
-		hash: "#home",
+		hash: "/#home",
 	},
 	{
 		name: "About",
-		hash: "#about",
+		hash: "/#about",
 	},
 	{
 		name: "Projects",
-		hash: "#projects",
+		hash: "/#projects",
 	},
 	{
 		name: "Skills",
-		hash: "#skills",
+		hash: "/#skills",
 	},
 	{
 		name: "Experience",
-		hash: "#experience",
+		hash: "/#experience",
 	},
 	{
 		name: "Contact",
-		hash: "#contact",
+		hash: "/#contact",
 	},
 ] as const;
 
