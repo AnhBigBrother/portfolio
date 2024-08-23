@@ -11,7 +11,7 @@ export default function Skills() {
 		<section
 			ref={ref}
 			id='skills'
-			className='max-w-[53rem] text-center scroll-mt-28 sm:scroll-mt-36'>
+			className='max-w-[52rem] text-center scroll-mt-28 sm:scroll-mt-36'>
 			<SectionHeading>Skills</SectionHeading>
 			<ul className='flex flex-wrap justify-center gap-2'>
 				{skillsData.map((skill, idx) => (

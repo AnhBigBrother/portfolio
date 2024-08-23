@@ -14,7 +14,7 @@ export default function Contact() {
 		<motion.section
 			id='contact'
 			ref={ref}
-			className='scroll-mt-28 sm:scroll-mt-36 w-full max-w-[40rem] px-3'
+			className='scroll-mt-28 sm:scroll-mt-36 w-full max-w-[45rem] px-3'
 			initial={{ opacity: 0, scale: 0.5 }}
 			whileInView={{ opacity: 1, scale: 1 }}
 			transition={{ duration: 0.3 }}>
