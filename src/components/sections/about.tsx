@@ -20,9 +20,9 @@ export default function About() {
 				I graduated from{" "}
 				<span className='font-semibold'>Hanoi University of Science and Technology</span> with a
 				major in <span className='font-semibold'>Mechatronics Engineering</span>. While still in
-				school, I tried programming and found my passion for it. I have a{" "}
-				<span className='font-semibold'>special passion</span> for{" "}
-				<span className='font-semibold'>Data structures & Algorithms</span>, I enjoy solving
+				school, I tried programming and found my passion for it. I am{" "}
+				<span className='font-semibold'>especially interested</span> in{" "}
+				<span className='font-semibold'>data structures & algorithms</span>, I enjoy solving
 				complex <span className='font-semibold'>algorithmic problems</span> in{" "}
 				<span className='font-semibold'>Leetcode</span> and have solved over 300 problems.
 			</p>
@@ -30,10 +30,10 @@ export default function About() {
 			<p>
 				My core stack is{" "}
 				<span className='font-semibold'>JavaScript, TypeScript, React, and Node.js</span>. I'm
-				also familiar with <span className='font-semibold'>Java</span> and{" "}
-				<span className='font-semibold'>object-oriented programming</span>. All the knowledge I
-				have comes from <span className='font-semibold'>self-study</span>. I'm always looking to
-				learn new technologies. Currently, I am looking for a{" "}
+				also familiar with <span className='font-semibold'>Java</span> and am learning{" "}
+				<span className='font-semibold'>Go</span>. All the knowledge I have comes from{" "}
+				<span className='font-semibold'>self-study</span>. I'm always interested in learning new
+				technologies. Currently, I am looking for a{" "}
 				<span className='font-semibold'>full-time position</span> as a{" "}
 				<span className='font-semibold'>software developer</span>. Working in a{" "}
 				<span className='font-semibold'>dynamic</span> and{" "}

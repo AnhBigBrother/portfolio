@@ -48,8 +48,8 @@ export default function Intro() {
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
 				<span className='font-semibold'>Hello, I'm Tien Anh Tran.</span> I'm a{" "}
-				<span className='font-semibold'>self-taught developer</span> who enjoys solving problems
-				and exploring new technologies. My core skills are focused on{" "}
+				<span className='font-semibold'>self-taught developer</span> who enjoys algorithms and
+				exploring new technologies. My core skills are focused on{" "}
 				<span className='font-semibold'>React(Next.js)</span> and{" "}
 				<span className='font-semibold'>Node.js</span>.
 			</motion.h1>
