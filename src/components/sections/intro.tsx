@@ -64,7 +64,7 @@ export default function Intro() {
 						setActiveSection("Contact");
 						setClickedSection("Contact");
 					}}
-					className='bg-gray-900 dark:bg-slate-950/80 text-white shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit hover:scale-110 duration-200'>
+					className='bg-black/80 text-white shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit hover:scale-110 duration-200'>
 					Contact me here <HiArrowNarrowRight className='w-5 h-5' />
 				</Link>
 				<a

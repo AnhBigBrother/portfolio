@@ -23,8 +23,9 @@ export default function About() {
 				school, I tried programming and found my passion for it. I am{" "}
 				<span className='font-semibold'>especially interested</span> in{" "}
 				<span className='font-semibold'>data structures & algorithms</span>, I enjoy solving
-				complex <span className='font-semibold'>algorithmic problems</span> in{" "}
-				<span className='font-semibold'>Leetcode</span> and have solved over 300 problems.
+				daily <span className='font-semibold'>algorithmic problems</span> in{" "}
+				<span className='font-semibold'>Leetcode</span> and join the{" "}
+				<span className='font-semibold'>Leetcode contest</span> on the weekend.
 			</p>
 
 			<p>
