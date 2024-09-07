@@ -14,6 +14,9 @@ export default function ThemeSwitch() {
 			if (localTheme === "dark") {
 				document.documentElement.classList.add("dark");
 			}
+		} else {
+			window.localStorage.setItem("theme", "dark");
+			setTheme("dark");
 		}
 	}, []);
 
