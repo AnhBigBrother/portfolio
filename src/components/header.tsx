@@ -14,7 +14,7 @@ export default function Header() {
 				<motion.div
 					initial={{ y: -100, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
-					className='absolute inset-0 sm:rounded-full bg-white/60 dark:bg-opacity-80 shadow-xl shadow-black/[0.03] backdrop-blur-[0.5rem] dark:bg-black'></motion.div>
+					className='absolute inset-0 sm:rounded-full bg-white/60 dark:bg-opacity-80 shadow-custom dark:bg-black'></motion.div>
 				<ul className='flex flex-row w-full flex-wrap items-center justify-center sm:justify-between gap-x-5 text-[0.9rem] font-medium text-gray-500 sm:flex-nowrap sm:gap-5'>
 					{links.map((link) => (
 						<motion.li
@@ -36,7 +36,7 @@ export default function Header() {
 								{link.name}
 								{link.name === activeSection && (
 									<motion.span
-										className='bg-slate-500/10 dark:bg-slate-500/20 rounded-full absolute inset-0 -z-10'
+										className='bg-neutral-500/10 rounded-full absolute inset-0 -z-10'
 										layoutId='activeSection'
 										transition={{
 											type: "spring",

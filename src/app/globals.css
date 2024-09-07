@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shadow-custom {
+  @apply shadow-xl shadow-black/[0.03] dark:shadow-white/[0.03] backdrop-blur-[0.5rem]
+}
+
+.bg-secondary {
+  @apply bg-neutral-100/50 hover:bg-white/70 focus:bg-white/70 dark:hover:bg-white/15 dark:focus:bg-white/15 dark:bg-neutral-700/25 backdrop-blur-[3px]
+}

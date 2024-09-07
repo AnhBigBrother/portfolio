@@ -20,7 +20,7 @@ export default function Skills() {
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ delay: idx * 0.05 }}
 						key={idx}
-						className='bg-white/60 shadow-lg shadow-black/[0.03] dark:bg-slate-700/25 backdrop-blur-[3px] rounded-xl px-5 py-3'>
+						className='bg-secondary rounded-xl px-5 py-3 hover:animate-bounce'>
 						{skill}
 					</motion.li>
 				))}

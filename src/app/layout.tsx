@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import ActiveSectionContextProvider from "@/context/active-section.context";
@@ -8,7 +8,9 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import { Background } from "@/components/background";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Open_Sans({ 
+	weight: "500",
+	subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Tien Anh Tran",
@@ -25,7 +27,7 @@ export default function RootLayout({
 			lang='en'
 			className='!scroll-smooth'>
 			<body
-				className={`${inter.className} relative pt-28 sm:pt-40 text-gray-950 dark:text-white/85`}>
+				className={`${font.className} relative pt-28 sm:pt-40 text-gray-950 dark:text-white/85`}>
 				<Background />
 				<ActiveSectionContextProvider>
 					<Header />

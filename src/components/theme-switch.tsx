@@ -31,7 +31,7 @@ export default function ThemeSwitch() {
 
 	return (
 		<button
-			className='fixed bottom-10 right-10 bg-white/50 w-[3rem] aspect-square rounded-full backdrop-blur-[6px] shadow-lg shadow-black/[0.03] hover:scale-110 active:scale-110 duration-200 dark:bg-slate-800/50'
+			className='fixed bottom-10 right-10 bg-white/50 w-[3rem] aspect-square rounded-full shadow-custom hover:scale-110 active:scale-110 duration-200 dark:bg-black/50'
 			onClick={toggleTheme}>
 			{theme === "dark" ? (
 				<div

@@ -26,7 +26,7 @@ const Project = ({ title, description, tags, imageUrl, link }: projectProps) => 
 			<a
 				href={link}
 				target='_blank'>
-				<section className='relative bg-white/50 dark:bg-slate-700/25 backdrop-blur-[3px] shadow-xl shadow-black/[0.03] rounded-lg max-w-[45rem] overflow-hidden sm:pr-8 sm:h-[22rem] sm:group-even:pl-8 hover:bg-sky-200/35 dark:hover:bg-sky-200/20 dark:text-white transition'>
+				<section className='relative bg-secondary shadow-xl shadow-black/[0.03] rounded-lg max-w-[45rem] overflow-hidden sm:pr-8 sm:h-[22rem] sm:group-even:pl-8 dark:text-white transition'>
 					<div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]'>
 						<h3 className='text-2xl font-medium'>{title}</h3>
 						<p className='mt-2 leading-relaxed text-gray-600 dark:text-white/75'>
