@@ -1,7 +1,23 @@
-import React from "react";
-import { PiGraduationCap } from "react-icons/pi";
-import { FaReact } from "react-icons/fa";
-import { LiaGraduationCapSolid } from "react-icons/lia";
+import React from "react"
+import { PiGraduationCap } from "react-icons/pi"
+import { LiaGraduationCapSolid } from "react-icons/lia"
+import { FaCode } from "react-icons/fa6"
+import { IconBaseProps } from "react-icons"
+
+type TExperience = {
+	title: string
+	location: string
+	description: string
+	date: string
+	icon: React.FunctionComponentElement<IconBaseProps>
+}
+type TProject = {
+	title: string
+	description: string
+	imageUrl: string
+	tags: string[]
+	link: string
+}
 
 export const links = [
 	{
@@ -28,9 +44,9 @@ export const links = [
 		name: "Contact",
 		hash: "/#contact",
 	},
-] as const;
+] as const
 
-export const experienceData = [
+export const experienceData: TExperience[] = [
 	{
 		title: "Start university",
 		location: "Hanoi, VN",
@@ -40,16 +56,23 @@ export const experienceData = [
 		date: "Seb, 2018",
 	},
 	{
+		title: "Software Developer",
+		location: "Hanoi, VN",
+		description: "Internship as a Software Developer at JITS Innovation Labs LLC.",
+		icon: React.createElement(FaCode),
+		date: "Aug, 2024",
+	},
+	{
 		title: "Graduate university",
 		location: "Hanoi, VN",
 		description:
 			"Graduated from Hanoi University of Science and Technology (Mechatronic Engineering - Intelligent Mechatronic Systems).",
 		icon: React.createElement(LiaGraduationCapSolid),
-		date: "Jul, 2024",
+		date: "Seb, 2024",
 	},
-] as const;
+] as const
 
-export const projectsData = [
+export const projectsData: TProject[] = [
 	{
 		title: "Messenger clone",
 		description:
@@ -74,7 +97,7 @@ export const projectsData = [
 		imageUrl: "/cineverse.png",
 		link: "https://cineverse-bigbro.vercel.app",
 	},
-] as const;
+] as const
 
 export const skillsData = [
 	"HTML",
@@ -87,7 +110,6 @@ export const skillsData = [
 	"Node.JS",
 	"Express.JS",
 	"Nest.JS",
-	"Sails.JS",
 	"Next.JS",
 	"MongoDB",
 	"PostgreSQL",
@@ -96,4 +118,4 @@ export const skillsData = [
 	"Git",
 	"Docker",
 	"English",
-] as const;
+] as const
