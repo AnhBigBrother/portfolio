@@ -1,8 +1,13 @@
 import React from "react"
 import { PiGraduationCap } from "react-icons/pi"
 import { LiaGraduationCapSolid } from "react-icons/lia"
-import { FaCode } from "react-icons/fa6"
+import { LuCode2 } from "react-icons/lu"
 import { IconBaseProps } from "react-icons"
+
+type TLink = {
+	name: string
+	hash: string
+}
 
 type TExperience = {
 	title: string
@@ -19,7 +24,7 @@ type TProject = {
 	link: string
 }
 
-export const links = [
+export const links : TLink[] = [
 	{
 		name: "Home",
 		hash: "/#home",
@@ -58,8 +63,8 @@ export const experienceData: TExperience[] = [
 	{
 		title: "Software Developer",
 		location: "Hanoi, VN",
-		description: "Internship as a Software Developer at JITS Innovation Labs LLC.",
-		icon: React.createElement(FaCode),
+		description: "Software Developer internship at JITS Innovation Labs LLC.",
+		icon: React.createElement(LuCode2),
 		date: "Aug, 2024",
 	},
 	{
@@ -77,7 +82,7 @@ export const projectsData: TProject[] = [
 		title: "Messenger clone",
 		description:
 			"A real-time chat app where you can log in with your Google or Github account and start chatting with your friends. You can send messages or pictures and also create group chats.",
-		tags: ["React", "Next.JS", "Next-Auth.JS", "TypeScript", "MongoDB", "Pusher"],
+		tags: ["React", "Next.js", "Next-Auth.js", "TypeScript", "MongoDB", "Pusher"],
 		imageUrl: "/messenger.png",
 		link: "https://bigbruhh-messenger.vercel.app",
 	},
@@ -85,7 +90,7 @@ export const projectsData: TProject[] = [
 		title: "Shop punk",
 		description:
 			"An e-commerce store for technology goods. It has features like filtering, rating, and purchasing products, and also has an admin role to manage products, orders, and sales statistics.",
-		tags: ["React", "Redux", "Tailwind", "Node.JS", "MongoDB", "Firebase"],
+		tags: ["React", "Redux", "Tailwind", "Node.js", "MongoDB", "Firebase"],
 		imageUrl: "/shop_punk.png",
 		link: "https://bruhh-e-commece.onrender.com",
 	},
@@ -107,11 +112,13 @@ export const skillsData = [
 	"React",
 	"Redux",
 	"TailwindCSS",
-	"Node.JS",
-	"Express.JS",
-	"Nest.JS",
-	"Next.JS",
+	"Node.js",
+	"Express.js",
 	"MongoDB",
+	"Next.js",
+	"Zustand",
+	"Shadcn.ui",
+	"Nest.js",
 	"PostgreSQL",
 	"Prisma",
 	"Redis",

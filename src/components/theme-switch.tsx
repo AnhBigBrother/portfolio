@@ -1,37 +1,30 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { BsMoon, BsSun } from "react-icons/bs";
+"use client"
+import React, { useEffect, useState } from "react"
+import { BsMoon, BsSun } from "react-icons/bs"
 
-type Theme = "light" | "dark";
+type Theme = "light" | "dark"
 
 export default function ThemeSwitch() {
-	const [theme, setTheme] = useState<Theme>("light");
+	const [theme, setTheme] = useState<Theme>("light")
 
 	useEffect(() => {
-		const localTheme = window.localStorage.getItem("theme") as Theme;
-		if (localTheme) {
-			setTheme(localTheme);
-			if (localTheme === "dark") {
-				document.documentElement.classList.add("dark");
-			}
-		} else {
-			document.documentElement.classList.add("dark");
-			window.localStorage.setItem("theme", "dark");
-			setTheme("dark");
+		const localTheme = window.localStorage.getItem("theme") as Theme
+		if (localTheme === "dark") {
+			document.documentElement.classList.add("dark")
 		}
-	}, []);
+	}, [])
 
 	const toggleTheme = () => {
 		if (theme === "light") {
-			setTheme("dark");
-			localStorage.setItem("theme", "dark");
-			document.documentElement.classList.add("dark");
+			setTheme("dark")
+			localStorage.setItem("theme", "dark")
+			document.documentElement.classList.add("dark")
 		} else {
-			setTheme("light");
-			localStorage.setItem("theme", "light");
-			document.documentElement.classList.remove("dark");
+			setTheme("light")
+			localStorage.setItem("theme", "light")
+			document.documentElement.classList.remove("dark")
 		}
-	};
+	}
 
 	return (
 		<button
@@ -51,5 +44,5 @@ export default function ThemeSwitch() {
 				</div>
 			)}
 		</button>
-	);
+	)
 }

@@ -1,15 +1,15 @@
-"use client";
-import { useActiveSectionContext } from "@/context/active-section.context";
-import { useSectionInView } from "@/lib/hooks";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
-import { SiGithub, SiLeetcode } from "react-icons/si";
-import { HiDownload, HiArrowNarrowRight } from "react-icons/hi";
+"use client"
+import { useActiveSectionContext } from "@/context/active-section.context"
+import { useSectionInView } from "@/lib/hooks"
+import { motion } from "framer-motion"
+import Image from "next/image"
+import Link from "next/link"
+import { SiGithub, SiLeetcode } from "react-icons/si"
+import { HiDownload, HiArrowNarrowRight } from "react-icons/hi"
 
 export default function Intro() {
-	const ref = useSectionInView("Home", 0.5);
-	const { setActiveSection, setClickedSection } = useActiveSectionContext();
+	const ref = useSectionInView("Home", 0.5)
+	const { setActiveSection, setClickedSection } = useActiveSectionContext()
 
 	return (
 		<section
@@ -47,10 +47,9 @@ export default function Intro() {
 				className='mb-10 mt-4 px-3 text-xl font-medium leading-[1.5]'
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
-				<span className='font-semibold'>Hello, I'm Tien Anh Tran.</span> I'm a{" "}
-				<span className='font-semibold'>self-taught developer</span> who enjoys algorithms and
-				exploring new technologies. My core skills are focused on{" "}
-				<span className='font-semibold'>React(Next.js)</span> and{" "}
+				<span className='font-semibold'>Hi, I'm Tien Anh Tran,</span> a{" "}
+				<span className='font-semibold'>self-taught developer</span> with a passion for solving <span className='font-semibold'>algorithms</span> and exploring cutting-edge technologies. My expertise lies primarily in{" "}
+				<span className='font-semibold'>React (Next.js)</span> and{" "}
 				<span className='font-semibold'>Node.js</span>.
 			</motion.h1>
 			<motion.div
@@ -61,8 +60,8 @@ export default function Intro() {
 				<Link
 					href={"#contact"}
 					onClick={() => {
-						setActiveSection("Contact");
-						setClickedSection("Contact");
+						setActiveSection("Contact")
+						setClickedSection("Contact")
 					}}
 					className='bg-black/80 text-white shadow-lg shadow-black/[0.05] px-7 h-[52px] flex items-center gap-2 rounded-full w-fit hover:scale-110 duration-200 shadow-custom'>
 					Contact me here <HiArrowNarrowRight className='w-5 h-5' />
@@ -90,5 +89,5 @@ export default function Intro() {
 				</div>
 			</motion.div>
 		</section>
-	);
+	)
 }
