@@ -21,10 +21,10 @@ export default function About() {
 				<span className='font-semibold'>Hanoi University of Science and Technology</span> with a
 				major in <span className='font-semibold'>Mechatronics Engineering</span>. During my time
 				at university, I tried programming and found my passion for it. I'm an{" "}
-				<span className='font-semibold'>algorithms enthusiast</span>, who enjoy solving daily{" "}
+				<span className='font-semibold'>algorithms enthusiast</span>, who enjoys solving daily{" "}
 				<span className='font-semibold'>algorithmic problems</span> in{" "}
-				<span className='font-semibold'>Leetcode</span> and participate in the{" "}
-				<span className='font-semibold'>contests</span> on the weekend.
+				<span className='font-semibold'>Leetcode</span> and participating in the{" "}
+				<span className='font-semibold'>contests</span> on weekends.
 			</p>
 
 			<p>
