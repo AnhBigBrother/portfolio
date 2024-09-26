@@ -32,13 +32,13 @@ export default function ThemeSwitch() {
 			onClick={toggleTheme}>
 			{theme === "dark" ? (
 				<div
-					title='Dusk mode'
+					title='Dark mode'
 					className='flex justify-center items-center w-full h-full'>
 					<BsMoon className='text-lg' />
 				</div>
 			) : (
 				<div
-					title='Dawn mode'
+					title='Light mode'
 					className='flex justify-center items-center w-full h-full'>
 					<BsSun className='text-lg' />
 				</div>
