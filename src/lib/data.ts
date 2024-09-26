@@ -63,7 +63,7 @@ export const experienceData: TExperience[] = [
 	{
 		title: "Software Developer",
 		location: "Hanoi, VN",
-		description: "Software Developer internship at JITS Innovation Labs LLC.",
+		description: "Software Developer Intern at JITS Innovation Labs LLC.",
 		icon: React.createElement(LuCode2),
 		date: "Aug, 2024",
 	},
