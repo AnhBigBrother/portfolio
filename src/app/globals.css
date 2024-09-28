@@ -2,10 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.shadow-custom {
-  @apply shadow-xl shadow-black/[0.03] dark:shadow-white/[0.03] backdrop-blur-[0.5rem]
-}
+@layer base {
+  .shadow-custom {
+    @apply shadow-xl shadow-black/[0.03] dark:shadow-white/[0.03] backdrop-blur-[0.5rem]
+  }
 
-.bg-secondary {
-  @apply bg-neutral-100/50 hover:bg-white/70 focus:bg-white/70 dark:hover:bg-white/15 dark:focus:bg-white/15 dark:bg-neutral-700/25 backdrop-blur-[3px]
+  .bg-secondary {
+    @apply bg-neutral-100/50 hover:bg-white/70 focus:bg-white/70 dark:hover:bg-white/15 dark:focus:bg-white/15 dark:bg-neutral-700/25 backdrop-blur-[3px]
+  }
+
+  .triangle {
+    @apply border border-t-8 border-b-8 border-t-transparent border-b-transparent
+  }
+
+  .triangle-left {
+    @apply border border-t-8 border-b-8 border-t-transparent border-b-transparent absolute top-5 left-0 -translate-x-[100%] border-l-0 border-r-8 border-r-neutral-100/50 dark:border-r-neutral-700/25 group-hover:border-r-white/70 dark:group-hover:border-r-white/15
+  }
+
+  .triangle-right {
+    @apply border border-t-8 border-b-8 border-t-transparent border-b-transparent absolute top-5 right-0 translate-x-[100%] border-r-0 border-l-8 border-l-neutral-100/50 dark:border-l-neutral-700/25 group-hover:border-l-white/70 dark:group-hover:border-l-white/15
+  }
 }

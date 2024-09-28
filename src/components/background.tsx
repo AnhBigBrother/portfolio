@@ -1,9 +1,9 @@
 export const Background = () => {
 	return (
-		<div className='fixed top-0 left-0 w-screen h-screen -z-10'>
-			<div className='absolute top-0 left-0 w-screen h-screen bg-sky-50/70 dark:bg-neutral-950/70 z-10'></div>
-			<div className="absolute translate-y-0 dark:translate-y-full bg-[url('/day.png')] w-screen h-screen bg-cover bg-center"></div>
-			<div className="absolute -translate-y-full dark:translate-y-0 bg-[url('/night.png')] w-screen h-screen bg-cover bg-center"></div>
+		<div className='fixed left-0 top-0 -z-10 h-screen w-screen'>
+			<div className='absolute left-0 top-0 z-10 h-screen w-screen bg-sky-50/70 dark:bg-neutral-950/70'></div>
+			<div className="absolute h-screen w-screen translate-y-0 bg-[url('/day.png')] bg-cover bg-center dark:translate-y-full"></div>
+			<div className="absolute h-screen w-screen -translate-y-full bg-[url('/night.png')] bg-cover bg-center dark:translate-y-0"></div>
 		</div>
 	);
 };

@@ -8,7 +8,7 @@ export default function SubmitButton() {
 		<button
 			type='submit'
 			disabled={pending}
-			className='w-[8.5rem] py-3 bg-black/80 text-white rounded-full outline-none duration-200 flex justify-center items-center gap-2 hover:scale-110 disabled:scale-100 disabled:bg-opacity-65 shadow-custom'>
+			className='shadow-custom flex w-[8.5rem] items-center justify-center gap-2 rounded-full bg-black/80 py-3 text-white outline-none duration-200 hover:scale-110 disabled:scale-100 disabled:bg-opacity-65'>
 			{pending ? (
 				<div className='h-5 w-5 animate-spin rounded-full border-b-2 border-white'></div>
 			) : (

@@ -8,9 +8,10 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import { Background } from "@/components/background";
 
-const font = Open_Sans({ 
+const font = Open_Sans({
 	weight: "500",
-	subsets: ["latin"] });
+	subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
 	title: "Tien Anh Tran",
@@ -27,7 +28,7 @@ export default function RootLayout({
 			lang='en'
 			className='!scroll-smooth'>
 			<body
-				className={`${font.className} relative pt-28 sm:pt-40 text-gray-950 dark:text-white/85`}>
+				className={`${font.className} relative pt-28 text-gray-950 sm:pt-40 dark:text-white/85`}>
 				<Background />
 				<ActiveSectionContextProvider>
 					<Header />

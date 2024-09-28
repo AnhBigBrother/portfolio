@@ -17,7 +17,7 @@ const Project = ({ title, description, tags, imageUrl, link }: projectProps) => 
 	const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.3, 1]);
 	return (
 		<motion.div
-			className='mb-3 sm:mb-8 last:mb-0 cursor-pointer group'
+			className='group mb-3 cursor-pointer last:mb-0 sm:mb-8'
 			ref={ref}
 			style={{
 				scale: scaleProgess,
@@ -26,16 +26,16 @@ const Project = ({ title, description, tags, imageUrl, link }: projectProps) => 
 			<a
 				href={link}
 				target='_blank'>
-				<section className='relative bg-secondary shadow-xl shadow-black/[0.03] rounded-lg max-w-[45rem] overflow-hidden sm:pr-8 sm:h-[22rem] sm:group-even:pl-8 dark:text-white transition'>
-					<div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]'>
+				<section className='bg-secondary relative max-w-[45rem] overflow-hidden rounded-lg shadow-xl shadow-black/[0.03] transition sm:h-[22rem] sm:pr-8 sm:group-even:pl-8 dark:text-white'>
+					<div className='flex h-full flex-col px-5 pb-7 pt-4 sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 sm:group-even:ml-[18rem]'>
 						<h3 className='text-2xl font-medium'>{title}</h3>
 						<p className='mt-2 leading-relaxed text-gray-600 dark:text-white/75'>
 							{description}
 						</p>
-						<ul className='flex flex-wrap mt-4 gap-2 sm:mt-auto'>
+						<ul className='mt-4 flex flex-wrap gap-2 sm:mt-auto'>
 							{tags.map((tag, idx) => (
 								<li
-									className='bg-black/[0.65] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full w-fit font-medium'
+									className='w-fit rounded-full bg-black/[0.65] px-3 py-1 text-[0.7rem] font-medium uppercase tracking-wider text-white'
 									key={idx}>
 									{tag}
 								</li>
@@ -49,7 +49,7 @@ const Project = ({ title, description, tags, imageUrl, link }: projectProps) => 
 						width={500}
 						height={500}
 						quality={"100"}
-						className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] object-cover rounded-t-lg shadow-2xl group-even:-right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:-translate-y-3 group-even:group-hover:rotate-2 group-hover:scale-105 transition'
+						className='group-even:-right-[initial] absolute -right-40 top-8 hidden w-[28.25rem] rounded-t-lg object-cover shadow-2xl transition group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-hover:scale-105 group-even:group-hover:-translate-y-3 group-even:group-hover:translate-x-3 group-even:group-hover:rotate-2 sm:block'
 					/>
 				</section>
 			</a>

@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 function VerticalTimeline({ children }: { children: React.ReactNode }) {
 	return (
-		<div className='relative pt-7 w-full flex flex-col gap-[2.5rem] overflow-hidden'>
-			<div className='absolute w-1 h-full rounded-full bg-secondary backdrop-blur-[3px] left-10 sm:left-1/2 -translate-x-1/2 -translate-y-7'></div>
+		<div className='relative flex w-full flex-col gap-[2.5rem] overflow-hidden pt-7'>
+			<div className='bg-secondary absolute left-10 h-full w-1 -translate-x-1/2 -translate-y-7 rounded-full sm:left-1/2'></div>
 			{children}
 		</div>
 	);
@@ -27,38 +27,38 @@ function VerticalTimelineElement({
 	});
 	return (
 		<div
-			className={`relative w-full pl-[90px] pr-3 sm:pl-0 h-auto min-h-20 flex  ${
+			className={`relative flex h-auto min-h-20 w-full pl-[90px] pr-3 sm:pl-0  ${
 				position === "left" ? "sm:justify-start sm:pl-3 sm:pr-0" : "flex-row-reverse"
 			}`}>
 			<motion.div
-				className='absolute rounded-full w-14 aspect-square bg-white/60 left-10 sm:left-1/2 flex justify-center items-center dark:bg-neutral-700/25 backdrop-blur-[3px] dark:backdrop-blur-[0.5rem]'
+				className='absolute left-10 flex aspect-square w-14 items-center justify-center rounded-full bg-white/60 backdrop-blur-[3px] sm:left-1/2 dark:bg-neutral-700/25 dark:backdrop-blur-[0.5rem]'
 				initial={{ opacity: 0, x: "-50%", scale: 0 }}
 				whileInView={{ opacity: 1, x: "-50%", scale: 1 }}
 				transition={{ duration: 0.5, type: "spring", stiffness: 360, damping: 50 }}>
 				{fittedIcon}
 			</motion.div>
 			<div
-				className={`w-full sm:w-1/2 flex ${
+				className={`flex w-full sm:w-1/2 ${
 					position === "left"
-						? "sm:pl-0 sm:pr-16 sm:justify-end"
-						: "sm:pl-16 sm:pr-0 justify-start"
+						? "sm:justify-end sm:pl-0 sm:pr-16"
+						: "justify-start sm:pl-16 sm:pr-0"
 				}`}>
 				<motion.div
-					className='relative px-5 py-3 rounded-lg bg-secondary backdrop-blur-[3px] text-wrap'
+					className='bg-secondary group relative text-wrap rounded-lg px-5 py-3'
 					initial={{ x: position === "left" ? -100 : 100, opacity: 0 }}
 					whileInView={{ x: 0, opacity: 1 }}
 					transition={{ duration: 0.5, type: "spring", stiffness: 360, damping: 50 }}>
-					<div className='absolute top-5 left-0 -translate-x-[100%] border dark:border-opacity-35 border-l-0 border-t-8 border-b-8 border-t-transparent border-b-transparent border-r-8 border-r-white/60 dark:border-r-neutral-700/25 sm:hidden'></div>
+					<div className='triangle-left sm:hidden'></div>
 					{position === "left" ? (
-						<div className='absolute hidden sm:block top-5  right-0 translate-x-[100%] border dark:border-opacity-35 border-r-0 border-t-8 border-b-8 border-t-transparent border-b-transparent border-l-8 border-l-white/60 dark:border-l-neutral-700/25'></div>
+						<div className='triangle-right hidden sm:block '></div>
 					) : (
-						<div className='absolute hidden sm:block top-5  left-0 -translate-x-[100%] border dark:border-opacity-35 border-l-0 border-t-8 border-b-8 border-t-transparent border-b-transparent border-r-8 border-r-white/60 dark:border-r-neutral-700/25'></div>
+						<div className='triangle-left hidden sm:block '></div>
 					)}
 					{children}
 				</motion.div>
 			</div>
 			<motion.div
-				className='h-14 px-9 items-center hidden sm:flex'
+				className='hidden h-14 items-center px-9 sm:flex'
 				initial={{ x: position === "right" ? -100 : 100, opacity: 0 }}
 				whileInView={{ x: 0, opacity: 1 }}
 				transition={{ duration: 0.5, type: "spring", stiffness: 360, damping: 50 }}>
