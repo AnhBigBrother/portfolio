@@ -34,7 +34,7 @@ export default function About() {
 				<span className='font-semibold'>Java</span>, aiming to deep-diving into the backend. As
 				a <span className='font-semibold'>self-taught developer</span>, I'm always willing to
 				expand my knowledge and stay up-to-date with new technologies. I'm currently seeking a
-				full-time <span className='font-semibold'>software engineer</span> role, working in a{" "}
+				full-time <span className='font-semibold'>software developer</span> role, working in a{" "}
 				<span className='font-semibold'>dynamic</span> and{" "}
 				<span className='font-semibold'>challenging</span> environment is my desire.
 			</p>

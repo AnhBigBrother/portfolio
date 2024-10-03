@@ -1,30 +1,30 @@
-import React from "react"
-import { PiGraduationCap } from "react-icons/pi"
-import { LiaGraduationCapSolid } from "react-icons/lia"
-import { LuCode2 } from "react-icons/lu"
-import { IconBaseProps } from "react-icons"
+import React from "react";
+import { PiGraduationCap } from "react-icons/pi";
+import { LiaGraduationCapSolid } from "react-icons/lia";
+import { LuCode2 } from "react-icons/lu";
+import { IconBaseProps } from "react-icons";
 
 type TLink = {
-	name: string
-	hash: string
-}
+	name: string;
+	hash: string;
+};
 
 type TExperience = {
-	title: string
-	location: string
-	description: string
-	date: string
-	icon: React.FunctionComponentElement<IconBaseProps>
-}
+	title: string;
+	location: string;
+	description: string;
+	date: string;
+	icon: React.FunctionComponentElement<IconBaseProps>;
+};
 type TProject = {
-	title: string
-	description: string
-	imageUrl: string
-	tags: string[]
-	link: string
-}
+	title: string;
+	description: string;
+	imageUrl: string;
+	tags: string[];
+	link: string;
+};
 
-export const links : TLink[] = [
+export const links: TLink[] = [
 	{
 		name: "Home",
 		hash: "/#home",
@@ -49,7 +49,7 @@ export const links : TLink[] = [
 		name: "Contact",
 		hash: "/#contact",
 	},
-] as const
+] as const;
 
 export const experienceData: TExperience[] = [
 	{
@@ -63,7 +63,7 @@ export const experienceData: TExperience[] = [
 	{
 		title: "Software Developer",
 		location: "Hanoi, VN",
-		description: "Software Developer Intern at JITS Innovation Labs LLC.",
+		description: "Software Developer at JITS Innovation Labs LLC.",
 		icon: React.createElement(LuCode2),
 		date: "Aug, 2024",
 	},
@@ -75,7 +75,7 @@ export const experienceData: TExperience[] = [
 		icon: React.createElement(LiaGraduationCapSolid),
 		date: "Seb, 2024",
 	},
-] as const
+] as const;
 
 export const projectsData: TProject[] = [
 	{
@@ -102,7 +102,7 @@ export const projectsData: TProject[] = [
 		imageUrl: "/cineverse.png",
 		link: "https://cineverse-bigbro.vercel.app",
 	},
-] as const
+] as const;
 
 export const skillsData = [
 	"HTML",
@@ -125,4 +125,4 @@ export const skillsData = [
 	"Git",
 	"Docker",
 	"English",
-] as const
+] as const;
