@@ -22,20 +22,19 @@ export default function About() {
 				major in <span className='font-semibold'>Mechatronics Engineering</span>. During my
 				university years, I tried programming and found my passion for it. I'm an{" "}
 				<span className='font-semibold'>algorithms enthusiast</span>, I love solving challenging
-				problems that push me to grow and improve. My hobbies are solving daily Leetcode
-				challenges and participating in weekend programming contests.
+				algorithmic problems on Leetcode that push me to grow and improve everyday.
 			</p>
 
 			<p>
-				My skills are strongly focused on <span className='font-semibold'>JavaScript</span> with{" "}
-				<span className='font-semibold'>React & Next.js</span> on the frontend and{" "}
-				<span className='font-semibold'>Nest.js</span> on the backend. I'm also exploring{" "}
-				<span className='font-semibold'>Golang</span> and{" "}
-				<span className='font-semibold'>Java</span>, aiming to deep-diving into the backend. As
-				a <span className='font-semibold'>self-taught developer</span>, I'm always willing to
-				expand my knowledge and stay up-to-date with new technologies. I'm currently seeking an
-				opportunity as a <span className='font-semibold'>software developer</span>, where I can
-				contribute something meaningfully while continuing to expand my knowledge and expertise.
+				I have experience with <span className='font-semibold'>JavaScript</span> and{" "}
+				<span className='font-semibold'>TypeScript</span>, with various frameworks, libraries
+				like <span className='font-semibold'>React, Next.js, Nest.js</span>, etc. I'm also
+				exploring <span className='font-semibold'>Golang</span>, aiming to deep-diving into the
+				backend. As a <span className='font-semibold'>self-taught developer</span>, I'm always
+				willing to expand my knowledge and stay up-to-date with new technologies. I'm currently
+				seeking an opportunity as a <span className='font-semibold'>software developer</span>,
+				where I can contribute something meaningfully while continuing to expand my knowledge
+				and expertise.
 			</p>
 		</motion.section>
 	);
