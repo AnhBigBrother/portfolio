@@ -22,7 +22,7 @@ export default function Contact() {
 			<p className='mb-6 text-center dark:text-white/60'>
 				Please contact me directly at{" "}
 				<a
-					className='text-sky-500 hover:underline'
+					className='text-sky-600 hover:underline'
 					href='mailto:anh.bigbruhh@gmail.com'>
 					anh.bigbruhh@gmail.com
 				</a>{" "}
