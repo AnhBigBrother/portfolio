@@ -48,8 +48,8 @@ export default function Intro() {
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
 				<span className='font-semibold'>Hi, I'm Tien Anh Tran,</span> a{" "}
-				<span className='font-semibold'>self-taught developer</span> with a strong passion for
-				exploring advanced <span className='font-semibold'>algorithms</span> and{" "}
+				<span className='font-semibold'>self-taught programmer</span>, who is passionate about{" "}
+				<span className='font-semibold'>data structures, algorithms</span> and{" "}
 				<span className='font-semibold'>cutting-edge technologies</span>.
 			</motion.h1>
 			<motion.div
