@@ -15,7 +15,7 @@ export default function Intro() {
 		<section
 			ref={ref}
 			id='home'
-			className='max-w-[45rem] scroll-mt-28 text-center sm:scroll-mt-36'>
+			className='max-w-[45rem] scroll-mt-28 px-[1rem] text-center sm:scroll-mt-36'>
 			<div className='flex flex-col items-center justify-center'>
 				<div className='relative mb-[2rem]'>
 					<motion.div
@@ -48,7 +48,7 @@ export default function Intro() {
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
 				<span className='font-semibold'>Hi, I'm Tien Anh Tran,</span> a{" "}
-				<span className='font-semibold'>self-taught programmer</span>, who is passionate about{" "}
+				<span className='font-semibold'>self-taught programmer</span>, passionate about{" "}
 				<span className='font-semibold'>data structures, algorithms</span> and{" "}
 				<span className='font-semibold'>cutting-edge technologies</span>.
 			</motion.h1>

@@ -23,8 +23,8 @@ export default function Contact() {
 				Please contact me directly at{" "}
 				<a
 					className='text-sky-600 hover:underline'
-					href='mailto:anh.bigbruhh@gmail.com'>
-					anh.bigbruhh@gmail.com
+					href='mailto:anh.bigbro@gmail.com'>
+					anh.bigbro@gmail.com
 				</a>{" "}
 				or through form below
 			</p>
@@ -43,14 +43,14 @@ export default function Contact() {
 					name='senderEmail'
 					required
 					maxLength={100}
-					className='bg-secondary h-14 w-full rounded-lg px-4 outline-none dark:placeholder:text-neutral-100/70'
+					className='bg-secondary h-14 w-full rounded-lg px-4 outline-none placeholder:text-gray-500/80'
 					placeholder='Your email'
 				/>
 				<textarea
 					name='message'
 					required
 					maxLength={5000}
-					className='bg-secondary my-3 h-52 w-full resize-none rounded-lg p-4 outline-none dark:placeholder:text-neutral-100/70'
+					className='bg-secondary my-3 h-52 w-full resize-none rounded-lg p-4 outline-none placeholder:text-gray-500/80'
 					placeholder='Your message'
 				/>
 				<SubmitButton />
