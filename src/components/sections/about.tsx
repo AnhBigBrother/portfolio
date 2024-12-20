@@ -31,9 +31,7 @@ export default function About() {
 				<span className='font-semibold'> TypeScript, Node.js, React, Next.js</span>, etc. I also
 				fell in love with <span className='font-semibold'>Golang</span> and its standard
 				library. As someone who values personal development first, I always look forward to
-				facing challenges to improve myself every day. I'm currently seeking an opportunity as a{" "}
-				<span className='font-semibold'>software developer</span>, where I can make meaningful
-				contributions and continue to expand my knowledge and expertise.
+				facing new challenges to improve myself every day and find my life worth living.
 			</p>
 		</motion.section>
 	);
