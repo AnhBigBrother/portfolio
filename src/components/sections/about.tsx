@@ -31,7 +31,7 @@ export default function About() {
 				<span className='font-semibold'> TypeScript, Node.js, React, Next.js</span>, etc. I also
 				fell in love with <span className='font-semibold'>Golang</span> and its standard
 				library. As someone who values personal development first, I always look forward to
-				facing new challenges to improve myself every day and find my life worth living.
+				facing new challenges to improve myself and find my life worth living.
 			</p>
 		</motion.section>
 	);

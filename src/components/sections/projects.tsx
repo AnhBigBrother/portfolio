@@ -13,7 +13,7 @@ export default function Projects() {
 			ref={ref}
 			id='projects'
 			className='scroll-mt-28 px-3 sm:scroll-mt-36 sm:px-0'>
-			<SectionHeading>Projects</SectionHeading>
+			<SectionHeading>Pet Projects</SectionHeading>
 			<div>
 				{projectsData.map((project, idx) => (
 					<React.Fragment key={idx}>
