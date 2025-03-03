@@ -58,7 +58,7 @@ export const experienceData: TExperience[] = [
 		description:
 			"Started studying at Hanoi University of Science and Technology (Mechatronic Engineering).",
 		icon: React.createElement(PiGraduationCap),
-		date: "Seb, 2018",
+		date: "2018 - 2024",
 	},
 	{
 		title: "Software Developer",
@@ -67,14 +67,14 @@ export const experienceData: TExperience[] = [
 		icon: React.createElement(LuCode2),
 		date: "Aug, 2024",
 	},
-	{
-		title: "Graduate university",
-		location: "Hanoi, VN",
-		description:
-			"Graduated from Hanoi University of Science and Technology (Mechatronic Engineering - Intelligent Mechatronic Systems).",
-		icon: React.createElement(LiaGraduationCapSolid),
-		date: "Seb, 2024",
-	},
+	// {
+	// 	title: "Graduate university",
+	// 	location: "Hanoi, VN",
+	// 	description:
+	// 		"Graduated from Hanoi University of Science and Technology (Mechatronic Engineering - Intelligent Mechatronic Systems).",
+	// 	icon: React.createElement(LiaGraduationCapSolid),
+	// 	date: "Seb, 2024",
+	// },
 ] as const;
 
 export const projectsData: TProject[] = [
@@ -127,6 +127,7 @@ export const skillsData = [
 	"Nest.js",
 	"Prisma",
 	"Golang",
+	"gRPC",
 	"PostgreSQL",
 	"Sqlc",
 	"Data structure",

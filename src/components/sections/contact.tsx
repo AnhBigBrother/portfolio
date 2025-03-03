@@ -23,8 +23,8 @@ export default function Contact() {
 				Please contact me directly at{" "}
 				<a
 					className='text-sky-600 hover:underline'
-					href='mailto:anh.bigbro@gmail.com'>
-					anh.bigbro@gmail.com
+					href='mailto:tienanh.tran1320@gmail.com'>
+					tienanh.tran1320@gmail.com
 				</a>{" "}
 				or through form below
 			</p>
