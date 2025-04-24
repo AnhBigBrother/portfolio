@@ -1,5 +1,5 @@
 "use client";
-import { projectsData } from "@/lib/data";
+import { projectsData } from "@/data";
 import Image from "next/image";
 import { useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";

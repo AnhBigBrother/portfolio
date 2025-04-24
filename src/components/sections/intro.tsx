@@ -1,6 +1,6 @@
 "use client";
 import { useActiveSectionContext } from "@/context/active-section.context";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +15,7 @@ export default function Intro() {
 		<section
 			ref={ref}
 			id='home'
-			className='max-w-[45rem] scroll-mt-28 text-center sm:scroll-mt-36'>
+			className='max-w-[45rem] scroll-mt-28 px-[1rem] text-center sm:scroll-mt-36'>
 			<div className='flex flex-col items-center justify-center'>
 				<div className='relative mb-[2rem]'>
 					<motion.div
@@ -48,11 +48,9 @@ export default function Intro() {
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
 				<span className='font-semibold'>Hi, I'm Tien Anh Tran,</span> a{" "}
-				<span className='font-semibold'>self-taught developer</span> with a passion for solving{" "}
-				<span className='font-semibold'>algorithms</span> and exploring cutting-edge
-				technologies. My expertise lies primarily in{" "}
-				<span className='font-semibold'>React (Next.js)</span> and{" "}
-				<span className='font-semibold'>Node.js</span>.
+				<span className='font-semibold'>self-taught programmer</span>, passionate about{" "}
+				<span className='font-semibold'>data structures, algorithms</span> and{" "}
+				<span className='font-semibold'>cutting-edge technologies</span>.
 			</motion.h1>
 			<motion.div
 				className='flex flex-col items-center justify-center gap-3 font-medium sm:flex-row'
@@ -70,7 +68,7 @@ export default function Intro() {
 				</Link>
 				<a
 					className=' bg-secondary flex h-[52px] w-fit cursor-pointer items-center gap-2 rounded-full px-7 shadow-lg shadow-black/[0.05] duration-200 hover:scale-110 dark:hover:text-white'
-					href='/TIEN ANH TRAN - Resume.pdf'>
+					href='/TIEN_ANH_TRAN-Resume.pdf'>
 					Download CV <HiDownload className='h-5 w-5' />
 				</a>
 				<div className='flex flex-row gap-2'>

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { links } from "@/lib/data";
+import { links } from "@/data";
 import Link from "next/link";
 import { useActiveSectionContext } from "@/context/active-section.context";
 
@@ -14,8 +14,8 @@ export default function Header() {
 				<motion.div
 					initial={{ y: -100, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
-					className='shadow-custom absolute inset-0 bg-white/60 sm:rounded-full dark:bg-black dark:bg-opacity-80'></motion.div>
-				<ul className='flex w-full flex-row flex-wrap items-center justify-center gap-x-5 text-[0.9rem] font-medium text-gray-500 sm:flex-nowrap sm:justify-between sm:gap-5'>
+					className='shadow-custom absolute inset-0 bg-white/50 sm:rounded-full dark:bg-black dark:bg-opacity-70'></motion.div>
+				<ul className='flex w-full flex-row flex-wrap items-center justify-center gap-x-5 text-[0.9rem] font-medium text-gray-700 sm:flex-nowrap sm:justify-between sm:gap-5'>
 					{links.map((link) => (
 						<motion.li
 							initial={{ y: -100, opacity: 0 }}

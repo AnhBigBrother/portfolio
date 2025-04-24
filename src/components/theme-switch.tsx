@@ -11,6 +11,7 @@ export default function ThemeSwitch() {
 		const localTheme = window.localStorage.getItem("theme") as Theme;
 		if (localTheme === "dark") {
 			document.documentElement.classList.add("dark");
+			setTheme("dark");
 		}
 	}, []);
 
@@ -28,20 +29,18 @@ export default function ThemeSwitch() {
 
 	return (
 		<button
-			className='shadow-custom fixed bottom-10 right-10 aspect-square w-[3rem] rounded-full bg-white/50 duration-200 hover:scale-110 active:scale-110 dark:bg-black/50'
+			className='shadow-custom fixed bottom-10 right-10 flex h-[3rem] w-[3rem] items-center justify-center rounded-full bg-white/50 duration-200 hover:scale-110 active:scale-110 dark:bg-black/50'
 			onClick={toggleTheme}>
 			{theme === "dark" ? (
-				<div
+				<BsMoon
 					title='Dark mode'
-					className='flex h-full w-full items-center justify-center'>
-					<BsMoon className='text-lg' />
-				</div>
+					className='text-lg'
+				/>
 			) : (
-				<div
+				<BsSun
 					title='Light mode'
-					className='flex h-full w-full items-center justify-center'>
-					<BsSun className='text-lg' />
-				</div>
+					className='text-lg'
+				/>
 			)}
 		</button>
 	);

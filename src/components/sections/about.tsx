@@ -2,7 +2,7 @@
 import React from "react";
 import SectionHeading from "@/components/section-heading";
 import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/hooks";
 
 export default function About() {
 	const ref = useSectionInView("About");
@@ -21,22 +21,17 @@ export default function About() {
 				<span className='font-semibold'>Hanoi University of Science and Technology</span> with a
 				major in <span className='font-semibold'>Mechatronics Engineering</span>. During my
 				university years, I tried programming and found my passion for it. I'm an{" "}
-				<span className='font-semibold'>algorithms enthusiast</span>, who enjoys solving{" "}
-				<span className='font-semibold'>Leetcode algorithm problems</span> and participating in{" "}
-				<span className='font-semibold'>programming competitions</span> on weekends.
+				<span className='font-semibold'>algorithms enthusiast</span>, I love solving challenging
+				algorithmic problems on Leetcode that push me to grow and improve.
 			</p>
 
 			<p>
-				My skills are strongly focused on <span className='font-semibold'>JavaScript</span> with{" "}
-				<span className='font-semibold'>React & Next.js</span> on the frontend and{" "}
-				<span className='font-semibold'>Nest.js</span> on the backend. I'm also exploring{" "}
-				<span className='font-semibold'>Golang</span> and{" "}
-				<span className='font-semibold'>Java</span>, aiming to deep-diving into the backend. As
-				a <span className='font-semibold'>self-taught developer</span>, I'm always willing to
-				expand my knowledge and stay up-to-date with new technologies. I'm currently seeking a
-				full-time <span className='font-semibold'>software developer</span> role, working in a{" "}
-				<span className='font-semibold'>dynamic</span> and{" "}
-				<span className='font-semibold'>challenging</span> environment is my desire.
+				I possess strong expertise in{" "}
+				<span className='font-semibold'>JavaScript ecosystem</span>, with various technologies
+				such as <span className='font-semibold'>React, Next.js, TypeScript, Node.js</span>, etc.
+				I also fell in love with <span className='font-semibold'>Golang</span> and its standard
+				library. As someone who values personal development first, I eagerly embrace challenges
+				to enhance my skills and deliver impactful contributions.
 			</p>
 		</motion.section>
 	);

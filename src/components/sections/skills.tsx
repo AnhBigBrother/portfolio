@@ -1,7 +1,7 @@
 "use client";
 import SectionHeading from "@/components/section-heading";
-import { skillsData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
+import { skillsData } from "@/data";
+import { useSectionInView } from "@/hooks";
 import { motion } from "framer-motion";
 
 export default function Skills() {

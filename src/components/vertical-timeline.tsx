@@ -31,7 +31,7 @@ function VerticalTimelineElement({
 				position === "left" ? "sm:justify-start sm:pl-3 sm:pr-0" : "flex-row-reverse"
 			}`}>
 			<motion.div
-				className='absolute left-10 flex aspect-square w-14 items-center justify-center rounded-full bg-white/60 backdrop-blur-[3px] sm:left-1/2 dark:bg-neutral-700/25 dark:backdrop-blur-[0.5rem]'
+				className='absolute left-10 flex aspect-square w-14 items-center justify-center rounded-full bg-white/60 backdrop-blur-[3px] sm:left-1/2 dark:bg-neutral-700/50 dark:backdrop-blur-[0.5rem]'
 				initial={{ opacity: 0, x: "-50%", scale: 0 }}
 				whileInView={{ opacity: 1, x: "-50%", scale: 1 }}
 				transition={{ duration: 0.5, type: "spring", stiffness: 360, damping: 50 }}>
